@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Black Dahlia';
+  src: URL('fonts/BlackDahlia-LBRG.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Art Dystopia';
+  src: URL('fonts/ArtDystopia.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Burn The Witch';
+  src: URL('fonts/BurnTheWitch-8Wr2.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Guttural';
+  src: URL('fonts/Guttural_by_Meztone.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Maiden';
+  src: URL('fonts/maiden.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Squealer';
+  src: URL('fonts/squealer.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Tobacco';
+  src: URL('fonts/Tobacco-OoR4.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: URL('fonts/Inconsolata-Regular.ttf') format('truetype');
+}
+
+html, body {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-family: Inconsolata, monospace;
+  height: 100%;
+}
+
+button {
+  font-family: Inconsolata, monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.band-name {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.black-dahlia {
+  font-family: 'Black Dahlia', fantasy;
+}
+
+.art-dystopia {
+  font-family: 'Art Dystopia', fantasy;
+}
+
+.burn-the-witch {
+  font-family: 'Burn The Witch', fantasy;
+}
+
+.guttural {
+  font-family: 'Guttural', fantasy;
+}
+
+.maiden {
+  font-family: 'Maiden', fantasy;
+}
+
+.squealer {
+  font-family: 'Squealer', fantasy;
+}
+
+.tobacco {
+  font-family: 'Tobacco', fantasy;
+}
+
+.generate-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 20px;
+}
+
+.generate-button:hover {
+  color: red;
+  border-color: red;
+}
